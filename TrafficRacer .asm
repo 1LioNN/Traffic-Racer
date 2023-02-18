@@ -785,10 +785,10 @@ checkCollision:
 	beq $a2, 0xff0303, gainLife
 	
 	# SHIELD COLLISION
-	# If left edge draws on any of these colors, gain a life up to 3
+	# If left edge draws on any of these colors, gain a shield
 	beq $a1, 0x058719, gainShield 
 	beq $a1, 0x8c8c8c, gainShield
-	# If right edge draws on any of these colors, gain a life up to 3
+	# If right edge draws on any of these colors, gain a shield
 	beq $a2, 0x058719, gainShield
 	beq $a2, 0x8c8c8c, gainShield
 	
