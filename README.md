@@ -13,6 +13,7 @@
 - S: Move backward
 - D: Move right
 - Q: Restart Game
+- X: Quit Game
 
 ## Bitmap Display Configuration: 
  - Unit width in pixels: 8 
