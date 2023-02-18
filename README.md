@@ -1,5 +1,13 @@
 # Traffic-Racer in MIPS Assembly
-
+This game is based on the classic traffic racer arcade game. 
+The  goal  of  this  game  is  to  ride  the  car  as  farthest  as  possible 
+without hitting other vehicles or the roadside. The game is 
+presented  in  a  top-down  perspective  where  cars  on  the  right 
+section of the screen are moving from bottom to top and cars on 
+the  left  side  are  moving  in  the  other  direction  (similar  to  a  four-
+lane two-way street). 
+If the car collides with another vehicle or the roadside, you lose a 
+life. The game ends when you lose three lives or when the progress bar is full.
 ## How to Play
 1. Open TrafficRacer.asm with MARS 
 2. Open up the Bitmap Display (MARS Tools Menu -> Bitmap Display) and Configure it as listed below
